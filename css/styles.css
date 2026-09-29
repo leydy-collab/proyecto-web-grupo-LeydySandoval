@@ -125,6 +125,113 @@ body{
 
 /*SECCION SERVICIOS*/
 
+/* Estilos generales para las secciones */
+.services-section, .team-section {
+    padding: 60px 20px;
+    background-color: #f8f9fa; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.container2 {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.services-section h2, .team-section h2 {
+    font-size: 2rem;
+    color: #0b132b;
+    margin-bottom: 10px;
+}
+
+.line {
+    width: 40px;
+    height: 3px;
+    background-color: #3a86ff;
+    margin: 0 auto 40px auto;
+    border-radius: 2px;
+}
+
+/* --- Estilos de Nuestros Servicios --- */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    justify-content: center;
+}
+
+.services-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.services-card:hover {
+    transform: translateY(-5px);
+}
+
+.services-card h3 {
+    font-size: 1.25rem;
+    color: #0b132b;
+    margin-bottom: 15px;
+}
+
+.services-card p {
+    font-size: 0.95rem;
+    color: #495057;
+    line-height: 1.5;
+}
+
+/* --- Estilos de Equipo Desarrollador --- */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    justify-content: center;
+}
+
+.team-card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+}
+
+.avatar-placeholder {
+    width: 70px;
+    height: 70px;
+    background-color: #e2e8f0;
+    border-radius: 50%;
+    margin: 0 auto 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+}
+
+.team-card h3 {
+    font-size: 1.1rem;
+    color: #0b132b;
+    margin-bottom: 5px;
+}
+
+.team-card p {
+    font-size: 0.85rem;
+    color: #6c757d;
+}
+
+
+
+
 /*FIN SERVICIOS*/
 
 
